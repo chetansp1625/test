@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".P2.P2_Calculator"
+    android:orientation="vertical"
+    >
+    <!-- Text View to display our basic heading of "calculator"-->
+    <TextView
+        style="@style/my_style"
+        android:text="Calculator"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:padding="50dp"
+ />
+
+    <!-- Edit Text View to input the values -->
+    <EditText
+        style="@style/my_style"
+        android:id="@+id/num1"
+        android:ems="10"
+        android:hint="number1"
+        android:inputType="number"
+ />
+
+    <!-- Edit Text View to input 2nd value-->
+    <EditText
+        style="@style/my_style"
+        android:id="@+id/num2"
+        android:ems="10"
+        android:hint="number2"
+        android:inputType="number"
+ />
+
+    <!-- Text View to display result -->
+    <TextView
+        style="@style/my_style"
+        android:id="@+id/result"
+        android:text="Result"
+        android:textSize="25dp"
+ />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <!-- A button to perform 'sum' operation -->
+        <Button
+            android:id="@+id/sum"
+            style="@style/my_style"
+            android:layout_width="wrap_content"
+            android:backgroundTint="@color/teal_200"
+            android:onClick="doSum"
+            android:text="+"
+            android:textSize="20dp" />
+
+        <!-- A button to perform subtraction operation. -->
+        <Button
+            android:id="@+id/sub"
+            style="@style/my_style"
+            android:layout_width="wrap_content"
+            android:backgroundTint="@color/teal_200"
+            android:onClick="doSub"
+            android:text="-"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+
+        <!-- A button to perform multiplication. -->
+        <Button
+            style="@style/my_style"
+            android:layout_width="wrap_content"
+            android:id="@+id/mul"
+            android:backgroundTint="@color/teal_200"
+            android:onClick="doMul"
+            android:text="x"
+            android:textSize="20dp"
+            />
+        <!-- A button to perform division. -->
+        <Button
+            style="@style/my_style"
+            android:layout_width="wrap_content"
+            android:id="@+id/div"
+            android:backgroundTint="@color/teal_200"
+            android:onClick="doDiv"
+            android:text="/"
+            android:textSize="20dp"
+            />
+
+
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:padding="16dp"
+        android:textSize="32sp"
+        android:text="@string/programs"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+        <TextView
+            android:id="@+id/program1"
+            style="@style/my_style"
+            android:onClick="Visiting_card"
+            android:text="@string/visiting_card" />
+
+        <View
+            style="@style/draw_line"
+            android:background="@color/grey" />
+
+        <TextView
+            android:id="@+id/program2"
+            style="@style/my_style"
+            android:onClick="Calculator"
+            android:text="@string/calculator" />
+
+        <View
+            style="@style/draw_line"
+            android:background="@color/grey" />
+
+        <TextView
+            android:id="@+id/program3"
+            style="@style/my_style"
+            android:onClick="Registration"
+            android:text="@string/registration" />
+
+        <View
+            style="@style/draw_line"
+            android:background="@color/grey" />
+
+        <TextView
+            android:id="@+id/program4"
+            style="@style/my_style"
+            android:onClick="Wallpaper"
+            android:text="@string/wallpaper" />
+
+        <View
+            style="@style/draw_line"
+            android:background="@color/grey" />
+
+        <TextView
+            android:id="@+id/program5"
+            style="@style/my_style"
+            android:onClick="Counter"
+            android:text="@string/counter" />
+
+        <View
+            style="@style/draw_line"
+            android:background="@color/grey" />
+
+        <TextView
+            android:id="@+id/program6"
+            style="@style/my_style"
+            android:onClick="Parser"
+            android:text="@string/parser" />
+
+        <View
+            style="@style/draw_line"
+            android:background="@color/grey" />
+
+        <TextView
+            android:id="@+id/program7"
+            style="@style/my_style"
+            android:onClick="ConvertText_to_Speech"
+            android:text="@string/convert_text_to_speech" />
+
+        <View
+            style="@style/draw_line"
+            android:background="@color/grey" />
+        <TextView
+            android:id="@+id/program8"
+            style="@style/my_style"
+            android:onClick="call_n_save"
+            android:text="@string/call_and_save" />
+
+        <View
+            style="@style/draw_line"
+            android:background="@color/grey" />
+
+</LinearLayout>
+    </ScrollView>
+</LinearLayout>

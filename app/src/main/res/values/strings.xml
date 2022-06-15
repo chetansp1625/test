@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Mobile Application Development Laboratory</string>
+
+    <string name="counter_app">counter App</string>
+    <string name="Counter_Value">Counter Value</string>
+    <string name="zero">0</string>
+    <string name="start">START</string>
+    <string name="stop">STOP</string>
+    <string name="programs">Programs</string>
+    <string name="visiting_card">Visiting Card</string>
+    <string name="calculator">Calculator</string>
+    <string name="registration">Registration</string>
+    <string name="wallpaper">Wallpaper</string>
+    <string name="counter">Counter</string>
+    <string name="parser">Parser</string>
+    <string name="convert_text_to_speech">Convert Text to Speech</string>
+    <string name="call_and_save">Call and Save</string>
+
+    <string name="name">Chetan</string>
+    <string name="designation">Engineer</string>
+    <string name="phone_number">+91 9606264610</string>
+    <string name="company">Tackle-D Pvt Ltd, Kushalnagar</string>
+    <string name="email">chetan@tackled.co.in</string>
+    <string name="website">www.tackled.co.in</string>
+    <string name="fax">+918296814686</string>
+
+</resources>
